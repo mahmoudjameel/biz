@@ -1,0 +1,135 @@
+{
+  "expo": {
+    "name": "bizpoint",
+    "slug": "bizpoint",
+    "version": "23.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static",
+            "deploymentTarget": "13.4"
+          },
+          "android": {
+            "compileSdkVersion": 34,
+            "targetSdkVersion": 34,
+            "buildToolsVersion": "30.0.2",
+            "kotlinVersion": "1.7.10",
+            "minSdkVersion": 21    
+          }
+        }
+      ],
+      [
+        "@stripe/stripe-react-native",
+        {
+          "merchantIdentifier": "",
+          "enableGooglePay": false
+        }
+      ],
+      [
+        "expo-document-picker",
+        {
+          "appleTeamId": "M3786FT5ZF",
+          "iCloudContainerEnvironment": "Production"
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon96x96.png",
+          "color": "#ffffff",
+          "mode": "production"
+        }
+      ],
+      "expo-localization",
+      "expo-font"
+    ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "backgroundColor": "#4091D3",
+      "resizeMode": "cover"
+    },
+    "notification": {
+      "icon": "./assets/icon96x96.png",
+      "color": "#ffffff",
+      "iosDisplayInForeground": true,
+      "androidMode": "default"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bitcode": "Debug",
+      "usesAppleSignIn": true,
+      "supportsTablet": true,
+      "bundleIdentifier": "com.linegroup.bizpoint.biz_point",
+      "buildNumber": "1",
+      "usesIcloudStorage": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "bizpoint uses the camera to capture and upload user profile image and Listing Image to the server.",
+        "NSPhotoLibraryUsageDescription": "bizpoint needs access to the photo library to select and upload user profile image and Listing Image to the server.",
+        "NSPhotoLibraryAddUsageDescription": "bizpoint needs access to the photo library to select and upload user profile image and Listing Image to the server.",
+        "NSLocationWhenInUseUsageDescription": "bizpoint uses device location on listing information, Listing search Data and User information.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "bizpoint uses device location on listing information, Listing search Data and User information.",
+        "NSLocationAlwaysUsageDescription": "bizpoint uses device location on listing information, Listing search Data and User information.",
+        "NSMicrophoneUsageDescription": "bizpoint uses your microphone while taking video of your product for uploading in listing information.",
+        "CFBundleAllowMixedLocalizations": true,
+        "UIBackgroundModes": [
+          "remote-notification"
+        ]
+      },
+      "config": {
+        "googleMapsApiKey": "AIzaSyCxYK8pyfEw4VsWXlnf6KAizcvNSt3mN4U",
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.linegroup.bizpoint.biz_point",
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCxYK8pyfEw4VsWXlnf6KAizcvNSt3mN4U"
+        }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#fff"
+      },
+      "permissions": [
+        "CAMERA",
+        "CAMERA_ROLL",
+        "MEDIA_LIBRARY",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "RECORD_AUDIO",
+        "READ_PHONE_STATE",
+        "LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "RECEIVE_BOOT_COMPLETED",
+        "android.permission.INTERNET",
+        "POST_NOTIFICATIONS"
+      ],
+      "blockedPermissions": [
+        "READ_CONTACTS"
+      ],
+      "versionCode": 23
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "bizpoint",
+    "extra": {
+      "eas": {
+        "projectId": "40b6fa27-c89f-40ac-9d8b-1d1c15158ade"
+      }
+    }
+  }
+}

@@ -1,0 +1,1331 @@
+{
+  "screenTitles": {
+    "accountScreen": "حساب",
+    "chatScreen": "دردشة",
+    "loginScreen": "تسجيل دخول",
+    "signUpScreen": "اشتراك",
+    "settingsScreen": "إعدادات",
+    "currencyTitle": "Currency",
+    "myListingsScreen": "القوائم الخاصة بي",
+    "favoritesScreen": "المفضلة",
+    "reportScreen": "أبلغ",
+    "myMembershipScreen": "عضويتي",
+    "contactUsScreen": "اتصل بنا",
+    "fAQScreen": "التعليمات",
+    "howtoSellFastScreen": "كيف تبيع بسرعة",
+    "moreScreen": "المزيد من الخيارات",
+    "myProfileScreen": "ملفي",
+    "editPersonalDetailScreen": "تحرير التفاصيل الشخصية",
+    "aboutAppScreen": "بشأن",
+    "tNCScreen": "الشروط والاحكام",
+    "privacyPolicyScreen": "سياسة خاصة",
+    "editListingScreen": "تحرير الإدراج",
+    "selectLocationScreen": "اختر موقعا",
+    "sendEmailScreen": "ارسل بريد الكتروني",
+    "selectCategoryScreen": "اختر الفئة",
+    "storeDetailsScreen": "تفاصيل المتجر",
+    "allStores": "جميع المتاجر",
+    "myStoreScreen": "متجري",
+    "membershipsScreen": "باقات العضوية",
+    "paymentMethodScreen": "تفاصيل الدفع",
+    "promoteScreen": "ترويج القائمة",
+    "paymentsScreen": "المدفوعات",
+    "paymentDetailScreen": "تفاصيل الدفع",
+    "forgotPassScreen": "نسيت كلمة المرور",
+    "oTPScreen": "التحقق OTP",
+    "documentsScreen": "مستنداتي",
+    "privacynSafetyScreen": "الخصوصية والأمان",
+    "hiddenListingsScreen": "الإعلانات المخفية",
+    "blockedUsersScreen": "المستخدمون المحظورون",
+    "payScreen": "قم بالدفع",
+    "zeroPayment": "الدفع"
+
+  },
+
+  "safetyScreenTexts": {
+    "hiddenListingsBtn": "Hidden Listings",
+    "blockedUsersBtn": "Blocked Users"
+  },
+
+  "adMobTexts": {
+    "okButton": "OK",
+    "appDisabledAlert": "This app delivers you ads using google AdMob. You need to enable tracking permission in order to get personalised ads. Go to permission settings and allow tracking for this app if you want to enable personalised ads."
+  },
+
+  "weekDayNames": {
+    "0": "الأحد",
+    "1": "الاثنين",
+    "2": "الثلاثاء",
+    "3": "الأربعاء",
+    "4": "الخميس",
+    "5": "الجمعة",
+    "6": "السبت"
+  },
+
+  "alerts": {
+    "notificationRegistrationFail": "Failed to register device for push notification",
+    "notificationPermission": "Please enable permission to get push notifications.",
+    "simulatorAlert": "Must use physical device for Push Notifications"
+  },
+
+  "tabTitles": {
+    "home": "الأساسية",
+    "search": "بحث",
+    "newListing": "إعلان آخر",
+    "chatList": "الدردشات",
+    "account": "حساب"
+  },
+
+   "headerBackButtonTitle": "عودة",
+
+  "accountScreenTexts": {
+    "loginButtonText": "تسجيل الدخول / الاشتراك",
+    "logOutButtonText": "تسجيل الخروج",
+    "successMessage": "تم تسجيل الخروج بنجاح",
+    "loginTitle": "يجب عليك تسجيل الدخول للمتابعة",
+    "deleteAccountBtn": "حذف الحساب",
+    "deleteAccountPrompt": "هل تريد حذف حسابك؟",
+    "okBtnTitle": "موافق",
+    "deleteAccountMessageTitle": "تحذير!",
+    "deleteAccountMessage": "هل أنت متأكد أنك تريد حذف حسابك؟ هذا الإجراء لا يمكن التراجع عنه.",
+    "cancelBtnTitle": "إلغاء",
+    "confirmBtnTitle": "تأكيد حذف الحساب"
+
+  },
+
+  "settingsScreenTexts": {
+    "select": "اختر",
+  "currencyTitle": "العملة",
+  "screenTitle": "إعدادات",
+  "notificationTitle": "إشعار",
+  "languageTitle": "لغة",
+  "ListingApprovalNotiTitle": "موافقة الإعلانات",
+  "newsletterNotiTitle": "النشرة الإخبارية",
+  "messageNotiTitle": "دردشة جديدة",
+  "reminderBeforeListingExpire": "تذكير قبل انتهاء صلاحية الإعلانات",
+  "expiredListingNotification": "إعلان منتهي الصلاحية",
+  "onlyAdmin": {
+    "newListing": "إعلانات جديدة",
+    "newOrder": "طلبات جديدة",
+    "newComment": "تعليق جديد"
+    },
+    "logoutbuttonTitle": "تسجيل خروج",
+   "viewStyleTitle": "نمط عرض القوائم",
+"listView": "عرض القائمة"
+
+  },
+
+  "allStoresTexts": {
+    "noShopText": "عذرا ، لم يتم تسجيل أي متجر حتى الآن.",
+    "storeAdCount": "إعلانات",
+    "searchPlaceholder": "بحث..."
+  },
+
+  "chatListScreenTexts": {
+    "noChatTitleMessage": "حاليا ليس لديك أي محادثات",
+    "noChatMessage": "ابدأ البيع والشراء!",
+    "deletePromptMessage": "هل تريد حقًا حذف هذه المحادثة؟",
+    "cancelButtonTitle": "يلغي",
+    "deleteButtonTitle": "حذف",
+    "noUserMessage": "حاليا أنت لم تسجل الدخول\nالرجاء تسجيل الدخول أو التسجيل للحصول على بيانات الدردشة الخاصة بك",
+    "chatDeleteSuccessText": "تم الحذف بنجاح",
+    "chatDeleteErrorText": "خطأ! حاول مرة اخرى",
+    "offlineNoticeText": "انت غير متصل",
+    "loginButtonTitle": "يسجل دخول / اشتراك",
+    "scrollToRefresh": "قم بالتمرير لتحديث قائمة الدردشة"
+  },
+
+"chatScreenTexts": {
+  "dactivatedMessage": "قام المستلم بحذف المحادثة",
+  "placeholder": {
+    "message": "اكتب رسالة"
+  },
+  "reportBtnTitle": "الإبلاغ عن إساءة",
+  "reportAlertTitle": "الإبلاغ عن مستخدم",
+  "reportAlertText": "هل تريد حقًا الإبلاغ عن هذا المستخدم لنشاط مسيء؟ إذا قمت بالإبلاغ، سيحصل مشرفو الموقع على تقرير حول هذا المستخدم للنشاط المسيء وسيقومون بمراجعة التقرير لاتخاذ الإجراءات المستقبلية. أيضًا، سيتم حذف هذه المحادثة ولن يتمكن المستخدم من إرسال أي رسالة جديدة من خلال هذه المحادثة.",
+  "cancelBtnTitle": "إلغاء",
+  "confirmBtnTitle": "الإبلاغ"
+},
+
+"contactUsScreenTexts": {
+  "sendmessageButtontitle": "إرسال رسالة",
+  "successMessage": "تم إرسال رسالتك بنجاح",
+  "customServerResponseError": "خطأ في الخادم!",
+  "formData": {
+    "name": {
+      "label": "اسمك",
+      "placeholder": "أدخل اسمك...",
+      "errorLabel": "الاسم"
+    },
+    "phone": {
+      "label": "رقم الهاتف",
+      "placeholder": "أدخل رقم الهاتف...",
+      "errorLabel": "رقم الهاتف"
+    },
+    "email": {
+      "label": "البريد الإلكتروني",
+      "placeholder": "example@email.com",
+      "errorLabel": "البريد الإلكتروني"
+    },
+    "message": {
+      "label": "الرسالة",
+      "placeholder": "رسالتك...",
+      "errorLabel": "الرسالة"
+    }
+  },
+  "formValidation": {
+    "requiredField": "هذا الحقل مطلوب.",
+    "minimumLength5": "يجب أن يكون على الأقل 5 أحرف.",
+    "minimumLength3": "يجب أن يكون على الأقل 3 أحرف.",
+    "validEmail": "يجب أن يكون بريد إلكتروني صالح."
+  }
+},
+  "editListingScreenTexts": {
+      "maxImageWarning": "تم إرفاق الحد الأقصى لعدد الصور",
+  "title": "نموذج تحرير القائمة",
+  "formFieldLabels": {
+    "listingTitle": "العنوان",
+    "pricingLabel": "التسعير",
+    "priceType": "نوع السعر",
+    "price": "السعر",
+    "maxPrice": "السعر الأقصى",
+    "listingDescription": "الوصف",
+    "videoUrl": "رابط الفيديو",
+    "contact": "تفاصيل الاتصال",
+    "zipCode": "الرمز البريدي",
+    "address": "العنوان",
+    "phone": "الهاتف",
+    "whatsapp": "واتساب",
+    "email": "البريد الإلكتروني",
+    "website": "الموقع الإلكتروني",
+    "name": "الاسم",
+    "imageInput": "الصور",
+    "formTitle": "معلومات المنتج",
+    "title": "العنوان"
+    },
+  "formValidation": {
+    "requiredField": "مطلوب.",
+    "minimumLength5": "يجب أن يكون على الأقل 5 أحرف.",
+    "minimumLength3": "يجب أن يكون على الأقل 3 أحرف.",
+    "validEmail": "يجب أن يكون بريدًا إلكترونيًا صالحًا.",
+    "validUrl": "يجب أن يكون رابطًا صالحًا."
+  },
+  "buttonTitles": {
+    "tryAgain": "حاول مرة أخرى",
+    "updateListing": "تحديث القائمة",
+    "mapStandard": "قياسي",
+    "mapHybrid": "هجين"
+  },
+  "mapToggleMessage": "لا تظهر الخريطة.",
+  "whatsappNote": "رقم الواتساب مع رمز البلد الخاص بك. مثال: +1xxxxxxxxxx",
+  "uploadErrorNotice": "خطأ أثناء التحميل! يرجى المحاولة مرة أخرى.",
+  "uploadingNotice": "قد يستغرق ذلك بعض الوقت اعتمادًا على سرعة اتصال الإنترنت الخاص بك...",
+  "maxImageCount": "يمكنك رفع ما يصل إلى ",
+  "images": " صور.",
+  "dragAndSort": "استمر في الضغط لسحب وفرز الصور.",
+  "loading": "جار الحصول على بيانات القائمة",
+  "geoCoderFail": "خطأ في خدمة الخريطة!",
+  "imageFieldCustomError": "الصورة مطلوبة",
+  "requiredFieldCustomError": "هذا الحقل مطلوب",
+  "websiteErrorLabel": "أدخل رابط صحيح!",
+  "videoUrlErrorLabel": "أدخل رابط بالتنسيق الصحيح!",
+  "videoUrlNote": "مثال: https://www.youtube.com/watch?v=RiXdDGk_XCU",
+  "requiredFieldNotice": "*** الحقول المميزة بنجمة حمراء مطلوبة ***",
+  "socialProfileTitle": "الملفات الاجتماعية"
+},
+
+"editPersonalDetailScreenTexts": {
+  "screenTitle": "تفاصيل الشخصية",
+  "changePhotoButtonTitle": "تغيير الصورة",
+  "updateDetailsButtonTitle": "حفظ المعلومات",
+  "passwordToggleText": "تغيير كلمة المرور",
+  "passwordNotSameMessage": "كلمة المرور غير متطابقة",
+  "successText": "تم التحديث بنجاح",
+  "errorText": "خطأ! يرجى المحاولة مرة أخرى",
+  "cancelButtonTitle": "إلغاء",
+  "addPhotoTitle": "إضافة صورة",
+  "takePhotoButtonTitle": "التقط صورة",
+  "fromGalleryButtonTitle": "من المعرض",
+  "fieldLabels": {
+    "firstName": "الاسم الأول",
+    "lastName": "الاسم الأخير",
+    "changePassword": "تغيير كلمة المرور",
+    "newPassword": "كلمة المرور الجديدة",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "phone": "رقم الهاتف",
+    "whatsapp": "رقم الواتساب",
+    "website": "الموقع الإلكتروني",
+    "zipcode": "الرمز البريدي",
+    "address": "العنوان",
+    "locations": "المواقع",
+    "password": "كلمة المرور"
+  },
+  "formValidation": {
+    "requiredField": "مطلوب.",
+    "minimumLength5": "يجب أن يكون على الأقل 5 أحرف.",
+    "minimumLength3": "يجب أن يكون على الأقل 3 أحرف.",
+    "validUrl": "يجب أن يكون رابطًا صالحًا."
+  },
+  "enterNewPassword": "أدخل كلمة المرور الجديدة",
+  "reEnterPassword": "أعد إدخال كلمة المرور",
+  "cameraRollPermissionAlert": "يجب عليك تمكين الإذن للوصول إلى مكتبة الصور",
+  "cameraPermissionAlert": "يجب عليك تمكين الإذن للوصول إلى الكاميرا"
+ },
+  "favoritesScreenTexts": {
+    "removePromptMessage": "هل ترغب في إزالة هذا الإعلان من المفضلة؟",
+    "cancelButtonTitle": "إلغاء",
+    "removeButtonTitle": "إزالة",
+    "noFavoriteMessage": "ليس لديك أي إعلانات في المفضلة بعد.",
+    "exploreTitle": "مشاهدة جميع الإعلانات",
+    "favRemoveSuccessMessage": "تمت إزالته بنجاح",
+    "favRemoveErrorCustomMessage": "خطأ! يرجى المحاولة مرة أخرى",
+    "customServerResponseError": "خطأ في الحصول على البيانات من الخادم",
+    "noInternet": "لا يوجد اتصال بالإنترنت"
+  },
+
+  "homeScreenTexts": {
+    "selectCatBtn": "Change",
+    "seAllButtonText": "عرض جميع الفئات",
+    "listingSearchPlaceholder": "بحث...",
+    "noListingsMessage": "آسف، لا توجد قوائم.",
+    "selectLocationText": "موقع",
+    "latestAdsText": "أحدث الإعلانات",
+    "topCategoriesText": "التصنيفات",
+    "requestTimedOut": "الطلب منتهي المدة!",
+    "exitAppWarning": "Are you sure you want to exit the app?",
+    "cancelButtonTitle": "Cancel",
+    "yesButtonTitle": "Yes",
+    "retryBtn": "Retry",
+    "refreshBtn": "Refresh"
+  },
+
+  "listingDetailScreenTexts": {
+    "soldOutMessage": "نفدت الكمية",
+    "cancelButtonTitle": "إلغاء",
+    "loginButtonTitle": "تسجيل الدخول",
+    "pageTitle": "التفاصيل",
+    "showLess": "عرض أقل",
+    "showMore": "عرض المزيد",
+    "sellerPrefix": "للبيع بواسطة ",
+    "description": "الوصف",
+    "mapButtons": {
+      "standard": "المعياري",
+      "hybrid": "هجين"
+    },
+    "similar": "إعلانات مماثلة",
+    "call": "اتصال ",
+    "custom_fields": {
+      "date_range": {
+        "start": "البداية: ",
+        "end": "النهاية: "
+      },
+      "date_time_range": {
+        "start": "البداية: ",
+        "end": "النهاية: "
+
+    },
+  "chatLoginAlert": "الرجاء تسجيل الدخول للدردشة مع هذا البائع",
+  "emailLoginAlert": "الرجاء تسجيل الدخول لإرسال بريد إلكتروني إلى البائع",
+  "loginAlert": "الرجاء تسجيل الدخول لاستخدام هذه الميزة.",
+  "priceTypes": {
+    "fixed": "ثابت",
+    "onCall": "بالاتصال",
+    "negotiable": "قابل للتفاوض"
+  },
+  "socialProfileTitle": "الملفات الاجتماعية",
+  "businessHoursTitle": "ساعات العمل",
+  "bHTexts": {
+    "openTitle": "مفتوح",
+    "closeTitle": "مغلق",
+    "openText": "مفتوح (24 ساعة)",
+    "openTodayText": "مفتوح اليوم (24 ساعة)",
+    "closeText": "مغلق",
+    "closeTodayText": "مغلق اليوم",
+    "currentStatusOpen": "نحن مفتوحون حاليًا.",
+    "currentStatusClose": "عذرًا، نحن مغلقون حاليًا."
+  },
+  "whatsappButton": "افتح واتساب",
+  "showRatingBtn": "عرض التقييمات",
+  "hideRatingBtn": "إخفاء التقييمات",
+  "ratingHeader": {
+    "zero": "لا توجد تقييمات",
+    "single": " تقييم",
+    "multiple": " تقييمات"
+  },
+  "ratingFormTitle": "اترك تقييمًا",
+  "ratingFormNotice": "عنوان بريدك الإلكتروني لن يتم نشره. الحقول المطلوبة مميزة بنجمة حمراء.",
+  "formLabels": {
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "title": "عنوان التقييم",
+    "rating": "تقييمك",
+    "review": "تقييمك"
+  },
+  "formValidation": {
+    "required": "مطلوب",
+    "invalid": "غير صالح"
+  },
+  "submitBtn": "إرسال",
+  "reviewNotice": "تم إرسال تقييمك بنجاح. بمجرد الموافقة عليه، سيتم عرضه مع التقييمات الأخرى.",
+  "reviewApproved": "تم التقييم بنجاح.",
+  "postTimePrefix": "نشرت ",
+  "deletedValue": "[القيمة تمت إزالتها بواسطة المشرف]",
+  "seeAllAds": "مشاهدة جميع الإعلانات",
+  "verified": "البائع الموثوق",
+  "share": "شارك هذا الإعلان",
+  "blockAd": "لا تظهر لي هذا الإعلان",
+  "unfollowSeller": "لا تظهر لي إعلانات هذا البائع",
+  "reportAd": "الإبلاغ عن هذا الإعلان",
+  "blockAdAlert": "هل ترغب حقًا في إخفاء هذا الإعلان؟ إذا قمت بالإخفاء، فلن يتم عرض هذا الإعلان لك بعد الآن.",
+  "blockAdConfirmBtn": "إخفاء",
+  "blockAdCancelBtn": "إلغاء",
+  "blockAdSuccessMessage": "تم إخفاء الإعلان بنجاح.",
+  "blockUserAlert": "هل ترغب حقًا في حظر هذا المستخدم؟ إذا قمت بالحظر، فلن تظهر لك أي إعلانات من هذا المستخدم ولن يتمكن من إرسال رسائل لك.",
+  "blockUserConfirmBtn": "حظر",
+  "blockUserCancelBtn": "إلغاء",
+  "blockUserSuccessMessage": "تم حظر المستخدم بنجاح."
+  },
+
+    "unBlockListingBtnTitle": "إظهار",
+  "unBlockAlert": "هل ترغب حقًا في إظهار هذا الإعلان؟",
+  "okBtnTitle": "تأكيد",
+  "cancelBtnTitle": "إلغاء",
+  "unBlockSuccessMessage": "تم إظهار الإعلان بنجاح.",
+  "listEmptyMessage": "لم تقم بإخفاء أي إعلان حتى الآن. يرجى سحب لأسفل لتحديث القائمة."
+
+  },
+    "blockedUsersTexts": {
+
+   "unBlockUserBtnTitle": "إلغاء الحظر",
+  "unBlockAlert": "هل ترغب حقًا في إلغاء حظر هذا المستخدم؟",
+  "okBtnTitle": "تأكيد",
+  "cancelBtnTitle": "إلغاء",
+  "unBlockSuccessMessage": "تم إلغاء حظر المستخدم بنجاح.",
+  "listEmptyMessage": "لم تقم بحظر أي مستخدم حتى الآن. يرجى سحب لأسفل لتحديث القائمة."
+
+  },
+
+  
+
+  "oTPScreenText": {
+ "phoneInputTitle": "ادخل رقم الهاتف",
+  "oTPInputTitle": "ادخل رمز OTP",
+  "phoneInputPlaceHolder": "رقم الهاتف",
+  "getOTPButtonTitle": "إرسال رمز OTP",
+  "verifyBtnTitle": "تحقق",
+  "retryBtnTitle": "إعادة إرسال OTP",
+  "successTitle": "تم التحقق بنجاح",
+  "errorTitle": "فشل التحقق",
+  "successMessage": "تم التحقق بنجاح من رقم الهاتف.",
+  "errorMessage": "خطأ في التحقق من OTP",
+  "okBtnTitle": "حسنًا",
+  "signUpBtnTitle": "إكمال التسجيل"
+  },
+
+  "loginScreenTexts": {
+    "signUpPrompt": "ليس لديك حساب؟",
+    "loginTitle": "تسجيل الدخول",
+    "formFieldsPlaceholder": {
+      "username": "رقم الهاتف",
+      "password": "كلمة المرور"
+    },
+    "forgotPassword": "هل نسيت كلمة المرور؟",
+    "cancelButtonTitle": "إلغاء",
+    "signUpButtonTitle": "إنشاء حساب",
+    "loginButtonTitle": "تسجيل الدخول",
+    "loginSuccessMessage": "تم تسجيل الدخول بنجاح",
+    "formFieldsLabel": {
+      "username": "اسم المستخدم",
+      "password": "كلمة المرور",
+      "reset": "اسم المستخدم / البريد الإلكتروني" 
+    },
+    "formValidation": {
+      "requiredField": "is required.",
+      "minimumLength3": "must be at least 3 characters."
+    },
+    "customResponseError": "Server error",
+    "socialButtonTitle": {
+      "facebook": "Facebook",
+      "google": "Google"
+    },
+    "pleaseWaitText": "Please Wait!",
+    "socialLoginText": "Or Login With"
+  },
+    "forgotScreenTexts": {
+    "title": "عنوان البريد الإلكتروني",
+    "message": "ادخل عنوان بريدك الإلكتروني لإعادة تعيين كلمة المرور.",
+    "placeholder": "اسم المستخدم / عنوان البريد الإلكتروني",
+    "buttonTitle": "متابعة",
+
+    "passwordReset": "سوف تتلقى رسالة بريد إلكتروني تحتوي على رابط لإعادة تعيين كلمة المرور الخاصة بك.",
+    "resetSuccessMessage": "تم إرسال رابط لإعادة تعيين كلمة المرور إلى بريدك الإلكتروني"
+
+  },
+
+  "membershipsScreenTexts": {
+    "makePayment": "إجراء الدفع",
+    "checkOut": "الدفع"
+  },
+
+  "myListingsScreenTexts": {
+    "loggedOut": "لم تقم بتسجيل الدخول.",
+    "deletePromptMessage": "هل ترغب في حذف",
+    "editPromptMessage": "هل ترغب في تعديل",
+    "promotePromptMessage": "هل ترغب في الترقية",
+    "soldPromptMessage": "هل ترغب في وضع علامة كمباع",
+    "renewPromptMessage": "هل ترغب في التجديد",
+    "asUnsold": "كغير مباع",
+    "asSold": "كمباع",
+    "cancelButtonTitle": "إلغاء",
+    "okayButtonTitle": "موافق",
+    "deleteButtonTitle": "حذف",
+    "editButtonTitle": "تعديل",
+    "promoteButtonTitle": "ترقية",
+    "renewButtonTitle": "تجديد",
+    "noAdTitle": "لا يوجد لديك أي إعلان حاليًا!",
+    "postAdButtonTitle": "إنشاء إعلان جديد!",
+    "listingDeleteSuccessText": "تم الحذف بنجاح",
+    "listingDeleteErrorText": "خطأ! يرجى المحاولة مرة أخرى",
+    "actionMenuButtons": {
+      "edit": "تعديل",
+      "delete": "حذف",
+      "promote": "ترقية",
+      "sold": "وضع علامة كمباع",
+      "unsold": "وضع علامة كغير مباع",
+      "renew": "تجديد"
+
+    },
+
+    "promoteLink": "https://bizpoint.online/",
+    "customServerErrorMessage": "Error gettion data from server.",
+    "noInternet": "No Internet"
+  },
+
+  "myMembershipScreenTexts": {
+    "title": "كن عضوًا لدينا!",
+    "membershipText": "تمنحك العضوية صوتًا ووجودًا لعملك على منصتنا لتصل إلى المزيد من العملاء وتزيد من مبيعاتك وتوسع عملك!",
+    "emailLabel": " : البريد الإلكتروني",
+    "membershipDetailHeader": "تقرير العضوية",
+    "membershipStatusLabel": " : الحالة",
+    "subscriptionStatusLabel": "الحالة : ",
+    "subscriptionNameLabel": "اسم الباقة : ",
+    "subscriptionMethodLabel": "الطريقة : ",
+    "subscriptionCancelBtnTitle": "إلغاء الاشتراك",
+    "subscriptionPMUpdateBtnTitle": "تحديث",
+    "subscriptionCancelConfirmation": "هل ترغب حقًا في إلغاء هذا الاشتراك؟",
+    "cancelBtnTitle": "إلغاء",
+    "confirmBtnTitle": "تأكيد",
+    "hideCardElementBtnTitle": "إخفاء",
+    "paymentMethodUpdateSuccessMessage": "تم تحديث طريقة الدفع بنجاح.",
+    "membershipValidityLabel": " : الصلاحية",
+    "remainingAdsLabel": " : الإعلانات المتبقية",
+    "postedAdsLabel": " : الإعلانات المنشورة",
+    "freeAdsLabel": "إعلانات مجانية : ",
+    "remainingAdsTableLabel": "الإعلانات المتبقية",
+    "membershipValidityTableLabel": "الصلاحية",
+    "upgradeMembershipPackageButtonTitle": "عرض المزيد من الباقات",
+    "showMembershipPackageButtonTitle": "عرض باقات العضوية",
+    "active": "نشط",
+    "expired": "منتهية الصلاحية",
+    "till": "حتى",
+    "expiredOn": "انتهت في",
+    "promotions": "الترقيات",
+    "validityUnit": "أيام",
+    "subscriptionReportTitle": "تقرير الاشتراك"
+  },
+
+  "myProfileScreenTexts": {
+    "customResponseError": "خطأ في جلب البيانات من الخادم",
+    "profileInfoLabels": {
+      "name": "الاسم الكامل",
+      "email": "عنوان البريد الإلكتروني",
+      "phone": "رقم الهاتف",
+      "whatsapp": "واتساب",
+      "address": "الموقع",
+      "website": "الموقع الإلكتروني"
+    },
+    "noInternet": "لا يوجد اتصال بالإنترنت",
+    "screenTitle": "المعلومات الشخصية",
+    "infoSectionTitle": "المعلومات الشخصية",
+    "editButtonTitle": "تعديل المعلومات",
+    "verifyBtnTitle": "التحقق",
+    "addPhoneBtnTitle": "إضافة رقم الهاتف",
+    "phoneVerifyAlert": "يرجى التحقق من رقم هاتفك قبل تحديث معلومات الملف الشخصي."
+
+  },
+
+  "myStoreTexts": {
+    "banner": "صورة غلاف المتجر",
+    "closed": "مغلق",
+    "noBanner": "لم يتم تحميل صورة غلاف بعد",
+    "logo": "شعار المتجر",
+    "schedule": "جدول المتجر",
+    "hours": "ساعات العمل",
+    "selectHours": "اختر ساعات العمل",
+    "info": "معلومات المتجر",
+    "slug": "عنوان المتجر / رابط URL",
+    "storeName": "اسم المتجر",
+    "storeSlogan": "شعار المتجر",
+    "storeEmail": "بريد المتجر الإلكتروني",
+    "storePhone": "رقم هاتف المتجر",
+    "storeWebsite": "موقع المتجر الإلكتروني",
+    "storeAddress": "عنوان المتجر",
+    "storeDescription": "وصف المتجر",
+    "storeSocial": "روابط التواصل الاجتماعي للمتجر",
+    "facebook": "رابط الفيسبوك",
+    "youtube": "رابط يوتيوب",
+    "twitter": "رابط تويتر",
+    "linkedin": "رابط لينكد إن",
+    "updateStoreButtonTitle": "تحديث المتجر",
+    "imagePickerTitle": "إضافة صورة",
+    "imagePickerCameraText": "التقط صورة",
+    "imagePickerGalleryText": "من معرض الصور",
+    "errorFieldNames": {
+      "slug": "عنوان المتجر / رابط URL",
+      "title": "اسم المتجر",
+      "slogan": "شعار المتجر",
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف",
+      "address": "العنوان",
+      "website": "الموقع الإلكتروني",
+      "description": "الوصف",
+      "facebook": "فيسبوك",
+      "youtube": "يوتيوب",
+      "twitter": "تويتر",
+      "linkedin": "لينكد إن"
+
+    },
+  "placeHolders": {
+    "slug": "عنوان المتجر",
+    "title": "اسم المتجر",
+    "slogan": "شعار المتجر",
+    "email": "yourstore@store.com",
+    "phone": "+0123456789",
+    "address": "عنوان المتجر",
+    "website": "https://www.yourstore.com",
+    "description": "وصف المتجر",
+    "facebook": "https://www.facebook.com/yourstore",
+    "youtube": "https://www.youtube.com/yourstore",
+    "twitter": "https://www.twitter.com/yourstore",
+    "linkedin": "https://www.linkedin.com/yourstore"
+
+    },
+  "formValidation": {
+    "requiredField": "مطلوب.",
+    "minimumLength5": "يجب أن يكون على الأقل 5 أحرف.",
+    "minimumLength3": "يجب أن يكون على الأقل 3 أحرف.",
+    "validEmail": "يجب أن يكون بريدًا إلكترونيًا صالحًا.",
+    "validUrl": "يجب أن يكون رابطًا صالحًا."
+    },
+  "successNotifications": {
+    "logo": "تم تحديث شعار المتجر بنجاح.",
+    "banner": "تم تحديث صورة الغلاف بنجاح.",
+    "storeInfo": "تم تحديث معلومات المتجر بنجاح."
+    },
+  "errorNotification": "خطأ في الخادم. يرجى المحاولة لاحقًا.",
+  "userHasNoStore": "المستخدم ليس لديه متجر.",
+  "storeCreateMessage": "هل ترغب في إنشاء متجرك؟",
+  "createStoreButtonTitle": "إنشاء متجر",
+  "cancelButtonTitle": "إلغاء",
+  "cameraRollPermissionAlert": "يجب عليك تمكين إذن الوصول إلى مكتبة الصور لاستخدام هذه الميزة",
+  "cameraPermissionAlert": "يجب عليك تمكين إذن الوصول إلى الكاميرا لاستخدام هذه الميزة",
+  "recommendedSize": "الحجم الموصى به (",
+  "maximum": "الحد الأقصى ",
+  "alwaysOpen": "مفتوح دائمًا"
+  },
+  "newListingScreenTexts": {
+
+  "title": "نموذج القيد",
+  "selectType": "حدد النوع",
+  "selectCategory": "اختر تصنيف",
+  "selectLocation": "اختر موقعاً",
+  "eligibilityChecking": "التحقق من أهلية المؤلف",
+  "noRemainingAds": "آسف! ليس لديك أي إعلانات متبقية",
+  "purchaseMembership": "يرجى شراء أو تجديد عضويتك لنشر المزيد من الإعلانات",
+  "goBackButtonTitle": "عودة",
+  "membershipButtonTitle": "العضوية",
+  "notLoggedIn": "أنت لم تسجل الدخول",
+  "loginOrSignUp": "الرجاء تسجيل الدخول أو الاشتراك لإنشاء إعلان",
+  "loginOrSignUpButtonTitle": "تسجيل الدخول / الاشتراك",
+  "unverifiedTitle": "حساب غير مُفعّل!",
+  "unverifiedAccountWithoutPhoneNumber": "الرجاء التحقق من حسابك باستخدام رقم الهاتف.",
+  "unverifiedAccountWithPhoneNumber": "الرجاء التحقق من رقم هاتفك.",
+  "verifyBtnTitle": "التحقق",
+  "addPhoneBtnTitle": "إضافة رقم الهاتف",
+  "categoryRestriction": "عذرًا! حزمة العضوية الخاصة بك لا تسمح بإنشاء إعلانات جديدة تحت هذا التصنيف.",
+  "catagoryLoadError": "حدث خطأ أثناء جلب التصنيفات. يرجى المحاولة مرة أخرى."
+  },
+  "reportScreenTexts": {
+
+  "serverResponse": {
+    "success": "تم إرسال التقرير بنجاح",
+    "fail": "خطأ في إرسال التقرير، يرجى المحاولة مرة أخرى"
+  },
+  "questionText": "هل هناك شيء خاطئ في هذا الإعلان؟",
+  "directionText": "يرجى إرسال تقرير إلينا إذا كنت تعتقد أن هناك مشكلة في هذا الإعلان؟",
+  "formFieldLabels": {
+    "message": "الرسالة"
+  },
+  "formFieldPlaceholders": {
+    "message": "رسالتك"
+  },
+  "formValidation": {
+    "requiredField": "مطلوب.",
+    "minimumLength3": "يجب أن يكون على الأقل 5 أحرف."
+  },
+  "sendReportButtonTitle": "إرسال التقرير"
+
+  },
+
+  "searchScreenTexts": {
+    "noListingFoundMessage": "آسف! لم يتم العثور على قائمة.",
+
+    "loadingFiltersMessage": "تحميل المرشحات",
+    "radiusSearchTitle": "البحث عن نصف القطر",
+    "radiusSearchCenterPlaceholder": "مركز البحث",
+    "locationPermissionAlert": "تحتاج إلى تمكين إذن الموقع لاستخدام هذه الميزة",
+    "location": "موقع",
+    "category": "فئة",
+    "allCategories": "فئات",
+    "filterTitle": "المرشحات",
+    "filterLabels": {
+      "sortBy": "صنف حسب",
+      "listingType": "نوع القائمة",
+      "priceRangeLabel": "نطاق السعر"
+    },
+    "rangeEnd": "إلى",
+    "rangeStart": "من عند",
+    "clearAllButtonTitle": "امسح الكل",
+    "applyFiltersButtonTitle": "تطبيق المرشحات"
+  },
+
+  "selectCategoryScreenTexts": {
+      "errorMessages": {
+    "serverError": "خطأ في الخادم",
+    "timeOut": "انتهت مهلة الطلب"
+  },
+  "showAllofCategory": "عرض الكل من",
+  "showAll": "عرض الكل",
+  "selectSubCategory": "اختر الفئة الفرعية",
+  "allCategory": "الفئات"
+
+  },
+
+  "selectLocationScreenTexts": {
+      "errorMessages": {
+    "serverError": "خطأ في الخادم",
+    "timeOut": "انتهت مهلة الطلب"
+  },
+  "showAllofLocation": "عرض الكل من",
+  "showAll": "عرض الكل",
+  "nextLevelLocation": "اختر موقع المستوى التالي"
+  },
+
+  "sendEmailScreenTexts": {
+  "serverResponse": {
+    "success": "تم إرسال البريد الإلكتروني بنجاح",
+    "fail": "حدث خطأ أثناء إرسال البريد الإلكتروني، يرجى المحاولة مرة أخرى",
+    "timeOut": "انتهت مهلة الطلب! يرجى المحاولة مرة أخرى"
+  },
+  "formFieldPlaceholders": {
+    "message": "رسالتك",
+    "name": "اسمك",
+    "email": "بريدك الإلكتروني",
+    "phone": "رقم هاتفك"
+  },
+  "formFieldLabels": {
+    "message": "الرسالة",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "phone": "رقم الهاتف"
+  },
+  "sendEmailButtonTitle": "إرسال البريد الإلكتروني",
+  "formValidation": {
+    "requiredField": "مطلوب.",
+    "minimumLength3": "يجب أن يكون على الأقل 3 أحرف.",
+    "validEmail": "يجب أن يكون بريد إلكتروني صالح."
+    }
+  },
+
+"signUpScreenTexts": {
+    "title": "التسجيل",
+    "formFieldLabels": {
+        "first_name": "الاسم الأول",
+        "last_name": "الاسم الأخير",
+        "username": " رقم الهاتف",
+        "phone": "أعد كتابة رقم الهاتف",
+        "email": "البريد الإلكتروني",
+        "password": " كلمة المرور (لا يقل عن ٨ ارقام)"
+    },
+    "formValidation": {
+        "requiredField": "مطلوب.",
+        "minimumLength3": "يجب أن يكون على الأقل 3 أحرف.",
+        "minimumLength5": "يجب أن يكون على الأقل 5 أحرف.",
+        "minimumLength6": "يجب أن يكون على الأقل 6 أحرف.",
+        "validEmail": "يجب أن يكون بريدًا إلكترونيًا صالحًا."
+    },
+    "formFieldPlaceholders": {
+        "first_name": "الاسم الأول",
+        "last_name": "الاسم الأخير",
+        "username": "اسم المستخدم",
+        "phone": "+123456789",
+        "email": "user@email.com",
+        "password": "كلمة المرور"
+    },
+"signupSuccessMessage": "تم التسجيل بنجاح",
+"mailVerification": "تم إرسال رسالة إلكترونية إلى عنوان بريدك مع رابط التحقق. يرجى تأكيد عنوان بريدك الإلكتروني قبل تسجيل الدخول.",
+"errorMessage": {
+  "timeoutError": "انتهت مهلة الطلب",
+  "serverError": "خطأ في الخادم"
+},
+"signUpButtonTitle": "التسجيل",
+"signInButtonTitle": "تسجيل الدخول",
+"signinMessage": "هل لديك حساب بالفعل؟"
+
+  },
+
+"promoteScreenTexts": {
+    "membershipPromotions": "العروض الخاصة بالعضوية",
+    "promotions": "العروض",
+    "remainingads": "الإعلانات المتبقية",
+    "validDuration": "المدة الصالحة",
+    "validPeriodUnit": "أيام",
+    "regularPromotions": "العروض العادية",
+    "validity": "الصلاحية",
+    "price": "السعر",
+    "confirmPromotion": "تأكيد العرض",
+    "proceedToPayment": "المتابعة للدفع",
+    "success": "تم العرض بنجاح",
+    "fail": "فشل العرض",
+    "goBackButton": "العودة",
+    "checkOut": "الدفع"
+  },
+
+"paymentMethodScreen": {
+    "selectedPackage": "الحزمة المختارة",
+    "promotionConfirmation": "أنت تقوم بالترقية لـ",
+    "promotionPlan": "خطة الترقية",
+    "packagePrice": "سعر الحزمة",
+    "promotionPrice": "سعر الترقية",
+    "subTotal": "المجموع الفرعي",
+    "paymentDetail": "تفاصيل الدفع",
+    "choosePayment": "اختيار طريقة الدفع",
+    "proceedPayment": "المتابعة للدفع",
+    "unknownError": "حدث خطأ غير معروف. يرجى المحاولة مرة أخرى لاحقًا.",
+    "payment": {
+        "paymentID": "رقم الدفع #",
+        "totalAmount": "المبلغ المدفوع",
+        "discount": "خصم الكوبون",
+        "originalPrice": "السعر الأصلي",
+        "orderDate": "تاريخ الطلب",
+        "paymentDate": "تاريخ الدفع",
+        "method": "طريقة الدفع",
+        "status": "حالة الدفع",
+        "transactionID": "مفتاح العملية",
+        "orderKey": "مفتاح الطلب",
+        "instructions": "التعليمات"
+    },
+"billing": {
+    "requiredError": "هذا الحقل مطلوب",
+    "title": "تفاصيل الفواتير",
+    "firstNameTitle": "الاسم الأول",
+    "firstNamePlaceholder": "الاسم الأول",
+    "lastNameTitle": "الاسم الأخير",
+    "lastNamePlaceholder": "الاسم الأخير",
+    "companyTitle": "اسم الشركة",
+    "companyPlaceholder": "شركتي",
+    "streetAddressTitle": "عنوان الشارع",
+    "streetAddressPlaceholder": "رقم المنزل واسم الشارع",
+    "addressLine2Title": "شقة، جناح، وحدة، إلخ",
+    "addressLine2Placeholder": "شقة، جناح، وحدة، إلخ",
+    "cityorTownTitle": "المدينة",
+    "cityorTownPlaceholder": "المدينة",
+    "emailTitle": "عنوان البريد الإلكتروني",
+    "emailPlaceholder": "myemail@mail.com",
+    "countryTitle": "البلد / المنطقة",
+    "countryPlaceholder": "البلد / المنطقة",
+    "stateTitle": "الولاية",
+    "statePlaceholder": "الولاية",
+    "postCodeTitle": "الرمز البريدي",
+    "postCodePlaceholder": "الرمز البريدي مثل 12346",
+    "countryCodeTitle": "رمز البلد",
+    "countryCodePlaceholder": "رمز البلد",
+    "phoneTitle": "رقم الهاتف",
+    "phonePlaceholder": "12434545",
+    "fieldRequiredAlert": "يرجى ملء جميع البيانات المطلوبة.",
+    "fieldRequiredMessage": "الحقول التالية مطلوبة \n",
+    "okBtnTitle": "موافق"
+    },
+    "plan": {
+    "pricingOption": "خيار التسعير",
+    "membershipTitle": "عنوان العضوية",
+    "duration": "المدة",
+    "amount": "المبلغ",
+    "details": "التفاصيل",
+    "description": "الوصف"
+    },
+    "closeButton": "إغلاق",
+    "paypalRedirectNotice": "جارٍ التوجيه إلى بايبال",
+    "paymentProcessing": "جارٍ معالجة الدفع",
+    "goToAccountButton": "العودة إلى الحساب",
+    "invalidCardMessage": "يرجى إدخال معلومات بطاقة صالحة.",
+    "paymentVerifying": "تحقق من الدفع",
+    "orderSuccess": "تم الطلب بنجاح!",
+    "applyButton": "تطبيق",
+    "removeButton": "إزالة",
+    "couponPlaceholder": "أدخل رمز الكوبون",
+    "couponDiscount": "خصم الكوبون",
+    "couponValidationFailed": "فشل التحقق من الكوبون. يرجى المحاولة مرة أخرى.",
+    "noPaymentGateway": "لم يتم العثور على بيانات بوابة الدفع.",
+    "paymentFailed": "فشل الدفع!",
+    "retry": "إعادة المحاولة"
+  },
+
+"paymentsScreenTexts": {
+  "unknownError": "حدث خطأ غير معروف! يرجى المحاولة مرة أخرى.",
+  "retryButton": "إعادة المحاولة",
+  "paymentMethodPrefix": "الدفع عبر",
+  "refreshButton": "تحديث",
+  "emptyListMessage": "عذرًا! ليس لديك أي سجل دفع."
+},
+
+"paymentDetailScreen": {
+  "errorNotice": "حدث خطأ أثناء جلب بيانات الدفع!",
+  "originalErrorLabel": "الخطأ الأصلي:",
+  "features": "الميزات",
+  "invoiceNo": "رقم الفاتورة:",
+  "payNowBtnTitle": "ادفع الآن"
+},
+
+"paymentScreen": {
+  "goBackBtnTitle": "العودة"
+},
+
+
+"storeDetailsTexts": {
+    "title": "تفاصيل المتجر",
+    "nullText": "غير متوفر",
+    "alwaysOpen": "مفتوح دائمًا",
+    "emptyListing": "عذرًا، هذا المتجر ليس لديه قائمة بعد!",
+    "storeExpired": "هذا المتجر غير متاح بسبب انتهاء صلاحية عضوية صاحب المتجر.",
+    "goBackButtonTitle": "العودة",
+    "membership": "عضو منذ",
+    "membershipMomentFormate": "MMM Do YYYY",
+    "openingHourOpen": "مفتوح اليوم",
+    "openingHourClose": "مغلق اليوم",
+    "viewMoreButtonText": "عرض المزيد حول هذا المتجر",
+    "latestAds": "آخر الإعلانات",
+    "cancelButtonTitle": "إلغاء",
+    "viewsCount": "المشاهدات: ",
+    "noData": "البيانات غير متوفرة.",
+    "loginButtonTitle": "تسجيل الدخول",
+    "loginAlert": "الرجاء تسجيل الدخول لإرسال بريد إلكتروني إلى صاحب المتجر",
+    "fullDayOpen": "مفتوح طوال اليوم",
+    "closed": "مغلق اليوم",
+    "openDayStarting": "مفتوح اليوم من ",
+    "openDayClosing": " إلى ",
+    "messageToStoreOwner": "رسالة",
+    "viewMore": "عرض المزيد حول هذا المتجر",
+    "callPrompt": "الاتصال بهذا المتجر؟",
+    "verified": "البائع الموثوق به",
+    "loginToSee": "الرجاء تسجيل الدخول لرؤية المعلومات."
+  },
+
+"storeMoreDetailTexts": {
+    "sectionTitles": {
+        "openinigDateTime": "تاريخ ووقت الافتتاح",
+        "storeAddress": "عنوان المتجر",
+        "storeDetails": "تفاصيل المتجر",
+        "social": "روابط اجتماعية للمتجر"
+    },
+    "alwaysOpen": "مفتوح دائمًا",
+    "closed": "مغلق",
+    "cancelButtonTitle": "إلغاء",
+    "noData": "البيانات غير متوفرة.",
+    "loginButtonTitle": "تسجيل الدخول",
+    "loginAlert": "الرجاء تسجيل الدخول لإرسال بريد إلكتروني إلى المتجر",
+    "fullDayOpen": "مفتوح طوال اليوم",
+    "messageToStoreOwner": "رسالة",
+    "callPrompt": "هل ترغب في الاتصال بالمتجر؟"
+  },
+  "myDocScreenTexts": {
+
+  "titles": {
+    "photoId": "هوية الصورة",
+    "otherDoc": "وثيقة أخرى"
+  },
+  "notes": {
+    "photoId": {
+      "maxSize": "الحد الأقصى لحجم الملف ",
+      "types": "أنواع الصور المسموحة "
+    },
+    "otherDoc": {
+      "maxSize": "الحجم الأقصى للملف هو 5 ميجابايت.",
+      "types": "أنواع الملفات المسموح بها: pdf."
+    }
+  },
+  "errorMsg": {
+    "photoId": {
+      "maxSize": "الحجم الأقصى المسموح به ",
+      "types": "أنواع الصور المسموح بها "
+    },
+    "otherDoc": {
+      "maxSize": "الحجم الأقصى المسموح به هو 5 ميجابايت.",
+      "types": "يُسمح فقط بملفات PDF."
+    }
+  },
+  "buttons": {
+    "upload": "تحميل الملف",
+    "download": "تحميل الملف",
+    "change": "تغيير الملف"
+    }
+  },
+
+  "datePickerTexts": {
+    "selectDate": "Select Date",
+    "selectTime": "Select Time",
+    "okButtonTitle": "OK"
+  },
+
+  "dateRangePickerTexts": {
+    "selectStartDate": "اختر تاريخ البدء",
+    "selectEndDate": "اختر تاريخ الانتهاء",
+    "selectStartTime": "اختر وقت البدء",
+    "selectEndTime": "اختر وقت الانتهاء",
+    "okButtonTitle": "موافق"
+  },
+
+  "dynamicFilterListPickerTexts": {
+    "selectText": "اختر خيارًا"
+  },
+
+  "dynamicListPickerTexts": {
+    "selectText": "اختر"
+  },
+
+  "favouritesItemTexts": {
+    "viewsText": "المشاهدات:"
+  },
+
+"imageInputTexts": {
+    "cancelButtonTitle": "إلغاء",
+    "ifImageLibraryPermissionDenied": "تحتاج إلى تمكين إذن الوصول لمكتبة الصور",
+    "ifCameraPermissionDenied": "تحتاج إلى تمكين إذن الوصول إلى كاميرا هاتفك",
+    "deleteMessageHeader": "حذف",
+    "deletePrompt": "هل ترغب حقًا في إزالة هذه الصورة؟",
+    "yesButton": "نعم",
+    "noButton": "لا",
+    "addPhoto": "إضافة صورة",
+    "takePhoto": "التقاط صورة",
+    "fromGallery": "من المعرض"
+  },
+
+  "imageInputListTexts": {
+"addPhotosButtonTitle": "إضافة صور",
+"addPhotoButtonTitle": "إضافة صورة"
+  },
+
+  "listingCardTexts": {
+"soldOutBadgeMessage": "نفدت الكمية"
+  },
+
+"listingFormTexts": {
+    "imageRequired": "**الرجاء إرفاق صورة واحدة على الأقل.**",
+    "maxImageWarning": "تم إرفاق الحد الأقصى من عدد الصور بالفعل",
+    "currencyLabel": "العملة",
+    "formTitle": "معلومات المنتج",
+    "fieldRequiredErrorMessage": "هذا الحقل مطلوب",
+    "tnCToggleText": "لقد قرأت وأوافق على ",
+    "tncText": "الشروط والأحكام",
+    "tncTitleText": "الشروط والأحكام",
+    "listingTitleLabel": "العنوان",
+    "videoURLLabel": "رابط الفيديو",
+    "pricingLabel": "التسعير",
+    "priceTypeLabel": "نوع السعر",
+    "priceLabel": "السعر",
+    "maxPriceLabel": "أقصى سعر",
+    "minPriceLabel": "أدنى سعر",
+    "priceUnitLabel": "وحدة السعر",
+    "listingDescriptionLabel": "الوصف",
+    "contactTitle": "تفاصيل الاتصال",
+    "zipCodeLabel": "الرمز البريدي",
+    "addressLabel": "العنوان",
+    "websiteErrorLabel": "أدخل عنوان URL صحيح!",
+    "geoAddressLabel": "عنوان جغرافي",
+    "phoneLabel": "الهاتف",
+    "whatsappLabel": "واتساب",
+    "whatsappNote": "رقم الواتساب مع رمز البلد الخاص بك. مثال: +1xxxxxxxxxx",
+    "emailLabel": "البريد الإلكتروني",
+    "websiteLabel": "الموقع الإلكتروني",
+    "nameLabel": "الاسم",
+    "imagesLabel": "الصور",
+    "maxImageCount": "يمكنك رفع ما يصل إلى ",
+    "images": " صور.",
+    "maxCountLimitReached": "تجاوز إجمالي عدد الصور الحد الأقصى المسموح به.",
+    "dragSortText": "استمر في الضغط لسحب وترتيب الصور.",
+    "uploadingNoticeText": "قد يستغرق ذلك بعض الوقت اعتمادًا على سرعة اتصال الإنترنت الخاص بك...",
+    "uploadErrorNoticeText": "خطأ أثناء التحميل! يرجى المحاولة مرة أخرى.",
+    "submitButtonTitle": "إرسال",
+    "successTitle": "تهانينا!",
+    "successMessage": "تم نشر إعلانك بنجاح",
+    "goBackBtnTitle": "العودة",
+    "socialProfileTitle": "الملفات الاجتماعية",
+    "tryAgainButtonTitle": "حاول مرة أخرى",
+    "mapToggleTitle": "لا تظهر الخريطة.",
+    "geoCoderFail": "خطأ في خدمة الخريطة!",
+    "videoURLInvalid": "الرابط غير صالح!",
+    "videoURLNote": "مثال: https://www.youtube.com/",
+    "businessHoursTitle": "ساعات العمل",
+    "businessHoursToggleTitle": "تفعيل ساعات العمل",
+    "businessHoursToggleNote": "حدد ساعات العمل الأسبوعية الخاصة بك",
+    "bHOpenBtnTitle": "فتح",
+    "timeSlotToggleButton": "هل ترغب في تعيين فترات زمنية؟ (افتراضي طوال اليوم)",
+    "timeSlotStartTitle": "البداية",
+    "timeSlotEndTitle": "النهاية",
+    "specialHoursToggleTitle": "ساعات خاصة - تجاوز",
+    "specialHoursToggleNote": "حدد ساعات العمل الأسبوعية الخاصة بك للتجاوز",
+    "geoAddressPlaceholder": "ابحث عن العنوان",
+    "formValidation": {
+        "requiredField": "مطلوب.",
+        "minimumLength5": "يجب أن يكون على الأقل 5 أحرف.",
+        "minimumLength3": "يجب أن يكون على الأقل 3 أحرف.",
+        "validEmail": "يجب أن يكون بريدًا إلكترونيًا صالحًا.",
+        "geoAddressRequired": "هذا الحقل مطلوب"
+    }
+  },
+
+"myAdsListItemTexts": {
+  "viewsText": "المشاهدات: ",
+  "soldOut": "تم البيع"
+},
+
+"OHTimePickerTexts": {
+  "okButtonTitle": "موافق"
+},
+
+"screenTexts": {
+  "noInternetText": "خطأ في الاتصال! يرجى التحقق من اتصال الإنترنت."
+},
+
+"sellerContactTexts": {
+  "call": "اتصال",
+  "email": "البريد الإلكتروني",
+  "chat": "محادثة"
+},
+
+"similarAdListItemTexts": {
+  "viewsText": "المشاهدات: "
+},
+
+"membershipCardTexts": {
+  "ads": "إعلانات",
+  "validityUnit": "أيام",
+  "regular": "عادي"
+},
+
+  "callForPrice": "اتصل للحصول على السعر",
+
+  "options_user": [
+    {
+      "title": "القوائم الخاصة بي",
+      "id": "my_listings"
+    },
+    {
+      "title": "المفضلة",
+      "id": "favourite"
+    },
+    {
+      "title": "عضويتي",
+      "id": "my_membership"
+    },
+    {
+      "title": "متجري",
+      "id": "my_store"
+    },
+
+    {
+      "title": "ملفي",
+      "id": "my_profile"
+    },
+    {
+      "title": "المدفوعات",
+      "id": "payments"
+    },
+    {
+      "title": "مستنداتي",
+      "id": "my_documents"
+    },
+    {
+      "title": "Privacy & Safety",
+      "id": "privacy_safety"
+    }
+  ],
+
+  "options_drawer": [
+    {
+      "title": "جميع المتاجر",
+      "id": "all_stores"
+    },
+    {
+      "title": "التعليمات",
+      "id": "faq"
+    },
+    {
+      "title": "كيف تبيع بسرعة",
+      "id": "how_to_sell_fast"
+    },
+    {
+      "title": "عنا",
+      "id": "about"
+    },
+    {
+      "title": "سياسه الخصوصيه",
+      "id": "pp"
+    },
+    {
+      "title": "الشروط والاحكام",
+      "id": "tnc"
+    },
+    {
+      "title": "اتصل بنا",
+      "id": "contact"
+    },
+    {
+      "title": "اعدادات التطبيق",
+      "id": "settings"
+    },
+    {
+      "title": "شارك مع صديق",
+      "id": "share"
+    }
+  ],
+
+  "appDescription": {
+    "paras": [
+      {
+        "paraTitle": "",
+        "paraDetail": "تطبيق biz point هو تطبيق Android – مصنف. باستخدام هذا التطبيق، يمكنك الوصول إلى الاعلانات المبوبة الأكثر روعة في البلاد، حيث يمكنك شراء العديد من المنتجات المختلفة والبحث عنها وبيعها أثناء التنقل. بيز بوينت لا تضع قيودًا عليك فيما يتعلق بالسلع التي يمكنك شراؤها أو بيعها. يسمح لك ببيع الدراجات النارية والمركبات والإلكترونيات وغير ذلك الكثير. علاوة على ذلك، إذا كنت مهتمًا ببيع أو شراء أو استئجار عقار، أو نشر أو البحث عن وظيفة داخل الدولة أو في الخارج، فيمكنك العثور على كل ذلك:",
+        "paraType": "para"
+      } ]
+  },
+
+  "drawerScreenTexts": {
+    "copyrightText": "2024© All right reserved by",
+    "linkText": "sky host"
+  },
+
+"frequentlyAskedQuestions": [
+  {
+    "question": "كيف يمكنني نشر إعلان؟",
+    "answer": "يمكنك نشر إعلانك بسهولة؛ ما عليك سوى النقر على أيقونة زائد (+) ومن ثم تسجيل الدخول وتقديم إعلانك بالبيانات الصحيحة. ستتلقى إشعارًا بعد تقديم إعلانك."
+  },
+  {
+    "question": "كيف يمكنني تعديل/حذف إعلاناتي؟",
+    "answer": "قم بتسجيل الدخول وانتقل إلى الحساب => إعلاناتي وستحصل على قائمة بإعلاناتك. كل إعلان له خيار حذف."
+  },
+  {
+    "question": "كيف يمكنني تعديل إعلاني؟",
+    "answer": "قم بتسجيل الدخول وانتقل إلى الحساب => إعلاناتي وستحصل على قائمة بإعلاناتك. كل إعلان له خيار تعديل."
+  },
+  {
+    "question": "كم عدد الأيام التي سيظل إعلاناتي نشطة؟",
+    "answer": "يعتمد ذلك على الإعدادات الخاصة بك، كم عدد الأيام التي ستبقى فيها القائمة نشطة يعتمد عليها إعلاناتك ستكون مرئية"
+  },
+  {
+    "question": "كم عدد الإعلانات التي يمكنني نشرها مجانًا؟",
+    "answer": "يعتمد ذلك على الإعدادات على موقع البائع سيتمكن من نشر عدد من الإعلانات المجانية لمدة معينة من الأيام."
+  },
+  {
+    "question": "كيف يمكنني تعديل معلومات حسابي؟",
+    "answer": "قم بتسجيل الدخول ثم اذهب إلى حسابي، ستحصل على خيار تحرير معلومات حسابك"
+  },
+  {
+    "question": "كيفية بدء محادثة مع شخص ما؟",
+    "answer": "انتقل إلى تفاصيل الإعلان؛ ستحصل على خيارات البريد الإلكتروني والهاتف والدردشة. ما عليك سوى النقر على أيقونة الدردشة وبدء محادثتك."
+  },
+  {
+    "question": "هل سأحصل على إشعارات للدردشة كبائع؟",
+    "answer": "نعم. سيحصل البائع على إشعار بطلب الدردشة أو البريد الإلكتروني. بالنسبة للدردشة، سيحصل المشتري على إشعار بريد إلكتروني عند الرسالة الأولى."
+
+    }
+  ],
+
+"sellFastTips": [
+    {
+        "id": 1,
+        "title": "اختر السعر المناسب",
+        "detail": "السعر عامل مهم للزبائن الذين يشترون المنتج. لذا قبل تحديد السعر، قم بزيارة الإعلانات المماثلة وحدد سعرًا مناسبًا وتنافسيًا."
+    },
+    {
+        "id": 2,
+        "title": "استخدم صور رائعة",
+        "detail": "استخدم صورًا واضحة وفعلية لمنتجك/منتجاتك. يمكنك استخدام صور متعددة من زوايا مختلفة حتى يحصل المشتري على فكرة واضحة أكثر عن المنتج/المنتجات الخاصة بك."
+    },
+    {
+        "id": 3,
+        "title": "قدم وصفًا واضحًا",
+        "detail": "قدم وصفًا واضحًا ومفصلًا لمنتجك. تأكد من أنك قد أضفت المعلومات الصحيحة حول منتجاتك."
+    }  ],
+
+"moreOptions": [
+    {
+      "title": "اتصل بنا",
+      "detail": "إذا واجهت أي مشكلة أو لم تجد إجابة سؤالك في قسم الأسئلة الشائعة، فلا تتردد في الاتصال بنا.",
+      "id": "contact_us"
+    },
+    {
+      "title": "عن هذا التطبيق",
+      "detail": "Biz Point عبارة عن منصة عبر الإنترنت يمكنك من خلالها شراء وبيع كل شيء تقريبًا. غالبًا ما تتم أفضل الصفقات مع الأشخاص الذين يعيشون في مكان قريب. إنه المكان الذي يمكنك فيه الحصول على كل شيء",
+      "id": "about_us"
+    },
+    {
+      "title": "الأحكام والشروط",
+      "detail": "Please be sure to read these Terms & Conditions before using this app.",
+      "id": "tnc"
+    },
+    {
+      "title": "سياسة خاصة",
+      "detail": "بيز بوينت تطبيق متخصص في الاعلانات المبوبه منصه وتطبيقات هدفها الاول راحة وحماية العملاء",
+      "id": "pp"
+    }
+  ],
+  "privacyPolicy": {
+    "paras": [
+    ],
+    "link": "",
+    "linkedPara": []
+  },
+
+  "termsAndConditions": [
+  ],
+"relativeTime": {
+  "future": "في %s",
+  "past": "%s مضت",
+  "s": "بضع ثوانٍ",
+  "m": "دقيقة واحدة",
+  "mm": "%d دقائق",
+  "h": "ساعة واحدة",
+  "hh": "%d ساعات",
+  "d": "يوم واحد",
+  "dd": "%d أيام",
+  "M": "شهر واحد",
+  "MM": "%d أشهر",
+  "y": "سنة واحدة",
+  "yy": "%d سنوات"
+},
+"promotions": {
+  "_bump_up": "ضخ لأعلى",
+  "_top": "قمة",
+  "featured": "متميز"
+},
+"listingStatus": {
+  "expired": "منتهي الصلاحية",
+  "publish": "نشر",
+  "pending": "قيد الانتظار",
+  "draft": "مسودة",
+  "reviewed": "تمت المراجعة"
+},
+"fixedPriceLabel": "سعر ثابت",
+"negotiablePriceLabel": "قابل للتفاوض"
+}
+

@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_number": "162162346266",
+    "project_id": "bizpoint-e8539",
+    "storage_bucket": "bizpoint-e8539.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162162346266:android:e683e5f9df7ca63c6744a3",
+        "android_client_info": {
+          "package_name": "com.linegroup.bizpoint.biz_point"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162162346266-6v1qa1ubrt1de4a8l3ssjbfjet9p1fuf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.linegroup.bizpoint.biz_point",
+            "certificate_hash": "a495f891d3c86ee18ced6fd368995241801e8b60"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIxya_hdGCJMhUJJ9_vnEPHSLKR21flA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "162162346266-j2gt63mgg0b89k475256agivhfelm6uk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
