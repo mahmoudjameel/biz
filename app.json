@@ -2,7 +2,7 @@
   "expo": {
     "name": "bizpoint",
     "slug": "bizpoint",
-    "version": "23.0.0",
+    "version": "24.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -120,7 +120,7 @@
       "blockedPermissions": [
         "READ_CONTACTS"
       ],
-      "versionCode": 23
+      "versionCode": 24
     },
     "web": {
       "favicon": "./assets/favicon.png"

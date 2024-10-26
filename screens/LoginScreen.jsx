@@ -1,8 +1,4 @@
-// import { AccessToken, LoginManager } from "react-native-fbsdk-next";
-// import {
-//   GoogleSignin,
-//   statusCodes,
-// } from "@react-native-google-signin/google-signin";
+
 import React, { useState, useEffect } from "react";
 import {
   Keyboard,
@@ -20,6 +16,7 @@ import {
 } from "react-native";
 
 import * as AppleAuthentication from "expo-apple-authentication";
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import { FontAwesome } from "@expo/vector-icons";
 import { AntDesign } from "@expo/vector-icons";
@@ -93,6 +90,16 @@ const LoginScreen = ({ navigation }) => {
   const [socialOverlayActive, setSocialOverlayActive] = useState(false);
   const [socialErrorMessage, setSocialErrorMessage] = useState();
   const [activeSocialType, setActiveSocialType] = useState();
+  useEffect(() => {
+    // استرجاع البيانات من AsyncStorage
+    const loadUserData = async () => {
+      const username = await AsyncStorage.getItem('username');
+      const password = await AsyncStorage.getItem('password');
+      setInitialValues({ username: username || '', password: password || '' });
+    };
+    loadUserData();
+  }, []);
+
 
   useEffect(() => {
     if (
@@ -131,7 +138,7 @@ const LoginScreen = ({ navigation }) => {
       }
     }
   };
-  const handleLogin = (values) => {
+  const handleLogin = async (values) => {
     setResponseErrorMessage();
     setLoading(true);
     Keyboard.dismiss();
@@ -140,7 +147,7 @@ const LoginScreen = ({ navigation }) => {
         username: values.username,
         password: values.password,
       })
-      .then((res) => {
+      .then(async (res) => {
         if (res.ok) {
           dispatch({
             type: "SET_AUTH_DATA",
@@ -151,8 +158,10 @@ const LoginScreen = ({ navigation }) => {
           });
           authStorage.storeUser(JSON.stringify(res.data));
 
-          handlePushRegister(res.data.jwt_token);
-
+          // تخزين اسم المستخدم وكلمة المرور
+          await AsyncStorage.setItem('username', values.username);
+          await AsyncStorage.setItem('password', values.password);
+          
           handleSuccess(
             __("loginScreenTexts.loginSuccessMessage", appSettings.lng)
           );
@@ -175,6 +184,7 @@ const LoginScreen = ({ navigation }) => {
         }
       });
   };
+
 
   const handlePushRegister = (a_token) => {
     if (miscConfig?.enablePushNotification) {
@@ -224,14 +234,8 @@ const LoginScreen = ({ navigation }) => {
     }, 10);
     setTimeout(() => {
       setFlashNotification(false);
-      if (loading) {
-        setLoading(false);
-      }
-      if (socialOverlayActive) {
-        setSocialOverlayActive(false);
-      }
-      setFlashNotificationMessage();
-      navigation.goBack();
+      setLoading(false);
+      navigation.navigate(routes.home); // توجيه المستخدم إلى الشاشة الرئيسية
     }, 1000);
   };
   const handleError = (message) => {

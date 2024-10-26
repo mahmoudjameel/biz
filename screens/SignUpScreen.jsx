@@ -20,7 +20,6 @@ import {
 // External Libraries
 import { Formik } from "formik";
 import * as Yup from "yup";
-import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // Custom Components & Functions
 import Constants from "expo-constants";
@@ -211,20 +210,12 @@ const SignUpScreen = ({ navigation, route }) => {
     setMainLoading(false);
   }, []);
 
-  const handleSignup = async (values) => {
+  const handleSignup = (values) => {
     setResponseErrorMessage();
     setLoading(true);
     Keyboard.dismiss();
-    
-    try {
-      const res = await api.post("signup", values); // استخدام await هنا
-      console.log("Response:", res); // سجّل الاستجابة للتحقق منها
-      
+    api.post("signup", values).then((res) => {
       if (res.ok) {
-        // حفظ البريد الإلكتروني وكلمة المرور في AsyncStorage
-        await AsyncStorage.setItem('userEmail', values.email);
-        await AsyncStorage.setItem('userPassword', values.password);
-  
         if (res?.data?.verification_mail) {
           alert(__("signUpScreenTexts.mailVerification", appSettings.lng));
         }
@@ -232,29 +223,31 @@ const SignUpScreen = ({ navigation, route }) => {
           __("signUpScreenTexts.signupSuccessMessage", appSettings.lng)
         );
       } else {
-        setResponseErrorMessage(
-          res?.data?.error_message ||
-          res?.data?.error ||
-          res?.problem ||
-          __("signUpScreenTexts.errorMessage.serverError", appSettings.lng)
-        );
-        handleError(
-          res?.data?.error_message ||
-          res?.data?.error ||
-          res?.problem ||
-          __("signUpScreenTexts.errorMessage.serverError", appSettings.lng)
-        );
+        if (res.problem === "TIMEOUT_ERROR") {
+          setResponseErrorMessage(
+            __("signUpScreenTexts.errorMessage.timeoutError", appSettings.lng)
+          );
+          handleError(
+            __("signUpScreenTexts.errorMessage.timeoutError", appSettings.lng)
+          );
+        } else {
+          setResponseErrorMessage(
+            res?.data?.error_message ||
+              res?.data?.error ||
+              res?.problem ||
+              __("signUpScreenTexts.errorMessage.serverError", appSettings.lng)
+          );
+          handleError(
+            res?.data?.error_message ||
+              res?.data?.error ||
+              res?.problem ||
+              __("signUpScreenTexts.errorMessage.serverError", appSettings.lng)
+          );
+        }
       }
-    } catch (error) {
-      console.error("Error during signup:", error);
-      setResponseErrorMessage("An error occurred. Please try again.");
-      handleError("An error occurred. Please try again.");
-    } finally {
-      setLoading(false); // تأكد من إيقاف التحميل هنا
-    }
+    });
   };
-  
-    
+
   const handleTnCShow = () => {
     setTnCVisible(!tnCVisible);
   };
@@ -461,34 +454,6 @@ const SignUpScreen = ({ navigation, route }) => {
                     </View>
                     <View style={[styles.inputWrap, rtlView]}>
                       <View style={styles.iconWrap}>
-                        <CallIcon fillColor={COLORS.primary} />
-                      </View>
-                      <TextInput
-                        placeholderTextColor={COLORS.text_light}
-                        style={[styles.inputCommon, styles.phoneImput, rtlText]}
-                        onChangeText={handleChange("phone")}
-                        onBlur={() => setFieldTouched("phone")}
-                        value={values.phone}
-                        placeholder={__(
-                          "signUpScreenTexts.formFieldLabels.phone",
-                          appSettings.lng
-                        )}
-                        keyboardType="phone-pad"
-                        editable={
-                          !route?.params?.verified && !route?.params?.phone
-                        }
-                      />
-                    </View>
-                    <View style={styles.errorWrap}>
-                      {touched.phone && errors.phone && (
-                        <Text style={[styles.errorMessage, rtlText]}>
-                          {errors.phone}
-                        </Text>
-                      )}
-                    </View>
-                    <View style={[styles.inputWrap, rtlView]}>
-                      
-                      <View style={styles.iconWrap}>
                         <MessageIcon fillColor={COLORS.primary} />
                       </View>
                       <TextInput
@@ -520,7 +485,33 @@ const SignUpScreen = ({ navigation, route }) => {
                         </Text>
                       )}
                     </View>
-                  
+                    <View style={[styles.inputWrap, rtlView]}>
+                      <View style={styles.iconWrap}>
+                        <CallIcon fillColor={COLORS.primary} />
+                      </View>
+                      <TextInput
+                        placeholderTextColor={COLORS.text_light}
+                        style={[styles.inputCommon, styles.phoneImput, rtlText]}
+                        onChangeText={handleChange("phone")}
+                        onBlur={() => setFieldTouched("phone")}
+                        value={values.phone}
+                        placeholder={__(
+                          "signUpScreenTexts.formFieldLabels.phone",
+                          appSettings.lng
+                        )}
+                        keyboardType="phone-pad"
+                        editable={
+                          !route?.params?.verified && !route?.params?.phone
+                        }
+                      />
+                    </View>
+                    <View style={styles.errorWrap}>
+                      {touched.phone && errors.phone && (
+                        <Text style={[styles.errorMessage, rtlText]}>
+                          {errors.phone}
+                        </Text>
+                      )}
+                    </View>
                     <View style={[styles.inputWrap, rtlView]}>
                       <View style={styles.iconWrap}>
                         <LockIcon fillColor={COLORS.primary} />
